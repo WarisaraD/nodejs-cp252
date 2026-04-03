@@ -35,6 +35,7 @@ describe('remove 2 user', () => {
     test('Remove two', () => {
       testUserData = new UserData();
       testUserData.clearUsers();
+      const user = new User('Test', 'test@example.com');
       testUserData.addUser(user);
       testUserData.addUser(user);
       testUserData.addUser(user);

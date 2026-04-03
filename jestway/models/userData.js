@@ -40,16 +40,8 @@ class UserData {
 
     // remove 2 user
     removeTwoUser() {
-        if ( this.users.length > 0 ) {
-            return this.users.pop();
-        }else{
-            return null
-        }  
-    }
-    
-    removeTwoUser() {
-        removeOneUser();
-        removeOneUser();
+        this.removeOneUser();
+        this.removeOneUser();
     }
     
 
